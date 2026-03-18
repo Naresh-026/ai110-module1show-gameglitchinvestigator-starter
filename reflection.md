@@ -5,9 +5,16 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  It is a simple guessing game where the user guesses a number  from a range of number. There is a certain number of tries to get the correct guess which determines the users score.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+  1. The hints were off. I the number guessed is low, it says to go lower and vice versa
+  2. In the input feild, it prompts "Press enter to apply", but it doesn't work.
+  3. Even if I do not get the answer right, I get a score of 5.
+  4. Difficulty normal has range 1 to 100, but hard has 1 to 50. It should be the other way around.
+  5. Once the game is over and new game is clicked, the submit button does not work.
+  6. After checking the debugger info, I realise that even if the guessed number is less than the secret number, it is prompting us to go lower.
 ---
 
 ## 2. How did you use AI as a teammate?
